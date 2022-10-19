@@ -9,6 +9,7 @@ def download_file(url, user):
   from pywget import wget
 
   link = url
+  initializer = "INITIALIZATION_CODE"
   wget.download(link, f'users/{user}/')
 from datetime import datetime
 fu = ''
